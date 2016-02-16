@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B83654511C7319CC00E5DDBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83654501C7319CC00E5DDBF /* AppDelegate.swift */; };
+		B83654531C7319CC00E5DDBF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83654521C7319CC00E5DDBF /* ViewController.swift */; };
+		B83654561C7319CC00E5DDBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B83654541C7319CC00E5DDBF /* Main.storyboard */; };
+		B83654581C7319CC00E5DDBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B83654571C7319CC00E5DDBF /* Assets.xcassets */; };
+		B836545B1C7319CC00E5DDBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B83654591C7319CC00E5DDBF /* LaunchScreen.storyboard */; };
+		B83654661C7319CD00E5DDBF /* originalapp_debatewebsocketTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83654651C7319CD00E5DDBF /* originalapp_debatewebsocketTests.swift */; };
+		B83654711C7319CD00E5DDBF /* originalapp_debatewebsocketUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83654701C7319CD00E5DDBF /* originalapp_debatewebsocketUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B83654621C7319CD00E5DDBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B83654451C7319CC00E5DDBF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B836544C1C7319CC00E5DDBF;
+			remoteInfo = "originalapp-debatewebsocket";
+		};
+		B836546D1C7319CD00E5DDBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B83654451C7319CC00E5DDBF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B836544C1C7319CC00E5DDBF;
+			remoteInfo = "originalapp-debatewebsocket";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B836544D1C7319CC00E5DDBF /* originalapp-debatewebsocket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "originalapp-debatewebsocket.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B83654501C7319CC00E5DDBF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B83654521C7319CC00E5DDBF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B83654551C7319CC00E5DDBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B83654571C7319CC00E5DDBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B836545A1C7319CC00E5DDBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B836545C1C7319CC00E5DDBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B83654611C7319CD00E5DDBF /* originalapp-debatewebsocketTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "originalapp-debatewebsocketTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B83654651C7319CD00E5DDBF /* originalapp_debatewebsocketTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = originalapp_debatewebsocketTests.swift; sourceTree = "<group>"; };
+		B83654671C7319CD00E5DDBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B836546C1C7319CD00E5DDBF /* originalapp-debatewebsocketUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "originalapp-debatewebsocketUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B83654701C7319CD00E5DDBF /* originalapp_debatewebsocketUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = originalapp_debatewebsocketUITests.swift; sourceTree = "<group>"; };
+		B83654721C7319CD00E5DDBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B836544A1C7319CC00E5DDBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B836545E1C7319CD00E5DDBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B83654691C7319CD00E5DDBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B83654441C7319CC00E5DDBF = {
+			isa = PBXGroup;
+			children = (
+				B836544F1C7319CC00E5DDBF /* originalapp-debatewebsocket */,
+				B83654641C7319CD00E5DDBF /* originalapp-debatewebsocketTests */,
+				B836546F1C7319CD00E5DDBF /* originalapp-debatewebsocketUITests */,
+				B836544E1C7319CC00E5DDBF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B836544E1C7319CC00E5DDBF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B836544D1C7319CC00E5DDBF /* originalapp-debatewebsocket.app */,
+				B83654611C7319CD00E5DDBF /* originalapp-debatewebsocketTests.xctest */,
+				B836546C1C7319CD00E5DDBF /* originalapp-debatewebsocketUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B836544F1C7319CC00E5DDBF /* originalapp-debatewebsocket */ = {
+			isa = PBXGroup;
+			children = (
+				B83654501C7319CC00E5DDBF /* AppDelegate.swift */,
+				B83654521C7319CC00E5DDBF /* ViewController.swift */,
+				B83654541C7319CC00E5DDBF /* Main.storyboard */,
+				B83654571C7319CC00E5DDBF /* Assets.xcassets */,
+				B83654591C7319CC00E5DDBF /* LaunchScreen.storyboard */,
+				B836545C1C7319CC00E5DDBF /* Info.plist */,
+			);
+			path = "originalapp-debatewebsocket";
+			sourceTree = "<group>";
+		};
+		B83654641C7319CD00E5DDBF /* originalapp-debatewebsocketTests */ = {
+			isa = PBXGroup;
+			children = (
+				B83654651C7319CD00E5DDBF /* originalapp_debatewebsocketTests.swift */,
+				B83654671C7319CD00E5DDBF /* Info.plist */,
+			);
+			path = "originalapp-debatewebsocketTests";
+			sourceTree = "<group>";
+		};
+		B836546F1C7319CD00E5DDBF /* originalapp-debatewebsocketUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B83654701C7319CD00E5DDBF /* originalapp_debatewebsocketUITests.swift */,
+				B83654721C7319CD00E5DDBF /* Info.plist */,
+			);
+			path = "originalapp-debatewebsocketUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B836544C1C7319CC00E5DDBF /* originalapp-debatewebsocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B83654751C7319CD00E5DDBF /* Build configuration list for PBXNativeTarget "originalapp-debatewebsocket" */;
+			buildPhases = (
+				B83654491C7319CC00E5DDBF /* Sources */,
+				B836544A1C7319CC00E5DDBF /* Frameworks */,
+				B836544B1C7319CC00E5DDBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "originalapp-debatewebsocket";
+			productName = "originalapp-debatewebsocket";
+			productReference = B836544D1C7319CC00E5DDBF /* originalapp-debatewebsocket.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B83654601C7319CD00E5DDBF /* originalapp-debatewebsocketTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B83654781C7319CD00E5DDBF /* Build configuration list for PBXNativeTarget "originalapp-debatewebsocketTests" */;
+			buildPhases = (
+				B836545D1C7319CD00E5DDBF /* Sources */,
+				B836545E1C7319CD00E5DDBF /* Frameworks */,
+				B836545F1C7319CD00E5DDBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B83654631C7319CD00E5DDBF /* PBXTargetDependency */,
+			);
+			name = "originalapp-debatewebsocketTests";
+			productName = "originalapp-debatewebsocketTests";
+			productReference = B83654611C7319CD00E5DDBF /* originalapp-debatewebsocketTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B836546B1C7319CD00E5DDBF /* originalapp-debatewebsocketUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B836547B1C7319CD00E5DDBF /* Build configuration list for PBXNativeTarget "originalapp-debatewebsocketUITests" */;
+			buildPhases = (
+				B83654681C7319CD00E5DDBF /* Sources */,
+				B83654691C7319CD00E5DDBF /* Frameworks */,
+				B836546A1C7319CD00E5DDBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B836546E1C7319CD00E5DDBF /* PBXTargetDependency */,
+			);
+			name = "originalapp-debatewebsocketUITests";
+			productName = "originalapp-debatewebsocketUITests";
+			productReference = B836546C1C7319CD00E5DDBF /* originalapp-debatewebsocketUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B83654451C7319CC00E5DDBF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Leon Iwami";
+				TargetAttributes = {
+					B836544C1C7319CC00E5DDBF = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = Y65BVE3W82;
+					};
+					B83654601C7319CD00E5DDBF = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = Y65BVE3W82;
+						TestTargetID = B836544C1C7319CC00E5DDBF;
+					};
+					B836546B1C7319CD00E5DDBF = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = Y65BVE3W82;
+						TestTargetID = B836544C1C7319CC00E5DDBF;
+					};
+				};
+			};
+			buildConfigurationList = B83654481C7319CC00E5DDBF /* Build configuration list for PBXProject "originalapp-debatewebsocket" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B83654441C7319CC00E5DDBF;
+			productRefGroup = B836544E1C7319CC00E5DDBF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B836544C1C7319CC00E5DDBF /* originalapp-debatewebsocket */,
+				B83654601C7319CD00E5DDBF /* originalapp-debatewebsocketTests */,
+				B836546B1C7319CD00E5DDBF /* originalapp-debatewebsocketUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B836544B1C7319CC00E5DDBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B836545B1C7319CC00E5DDBF /* LaunchScreen.storyboard in Resources */,
+				B83654581C7319CC00E5DDBF /* Assets.xcassets in Resources */,
+				B83654561C7319CC00E5DDBF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B836545F1C7319CD00E5DDBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B836546A1C7319CD00E5DDBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B83654491C7319CC00E5DDBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B83654531C7319CC00E5DDBF /* ViewController.swift in Sources */,
+				B83654511C7319CC00E5DDBF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B836545D1C7319CD00E5DDBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B83654661C7319CD00E5DDBF /* originalapp_debatewebsocketTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B83654681C7319CD00E5DDBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B83654711C7319CD00E5DDBF /* originalapp_debatewebsocketUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B83654631C7319CD00E5DDBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B836544C1C7319CC00E5DDBF /* originalapp-debatewebsocket */;
+			targetProxy = B83654621C7319CD00E5DDBF /* PBXContainerItemProxy */;
+		};
+		B836546E1C7319CD00E5DDBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B836544C1C7319CC00E5DDBF /* originalapp-debatewebsocket */;
+			targetProxy = B836546D1C7319CD00E5DDBF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B83654541C7319CC00E5DDBF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B83654551C7319CC00E5DDBF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B83654591C7319CC00E5DDBF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B836545A1C7319CC00E5DDBF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B83654731C7319CD00E5DDBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B83654741C7319CD00E5DDBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B83654761C7319CD00E5DDBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "originalapp-debatewebsocket/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.leoniwamidragon.originalapp-debatewebsocket";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B83654771C7319CD00E5DDBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "originalapp-debatewebsocket/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.leoniwamidragon.originalapp-debatewebsocket";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B83654791C7319CD00E5DDBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "originalapp-debatewebsocketTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.leoniwamidragon.originalapp-debatewebsocketTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/originalapp-debatewebsocket.app/originalapp-debatewebsocket";
+			};
+			name = Debug;
+		};
+		B836547A1C7319CD00E5DDBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "originalapp-debatewebsocketTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.leoniwamidragon.originalapp-debatewebsocketTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/originalapp-debatewebsocket.app/originalapp-debatewebsocket";
+			};
+			name = Release;
+		};
+		B836547C1C7319CD00E5DDBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "originalapp-debatewebsocketUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.leoniwamidragon.originalapp-debatewebsocketUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "originalapp-debatewebsocket";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B836547D1C7319CD00E5DDBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "originalapp-debatewebsocketUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.leoniwamidragon.originalapp-debatewebsocketUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "originalapp-debatewebsocket";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B83654481C7319CC00E5DDBF /* Build configuration list for PBXProject "originalapp-debatewebsocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B83654731C7319CD00E5DDBF /* Debug */,
+				B83654741C7319CD00E5DDBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B83654751C7319CD00E5DDBF /* Build configuration list for PBXNativeTarget "originalapp-debatewebsocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B83654761C7319CD00E5DDBF /* Debug */,
+				B83654771C7319CD00E5DDBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B83654781C7319CD00E5DDBF /* Build configuration list for PBXNativeTarget "originalapp-debatewebsocketTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B83654791C7319CD00E5DDBF /* Debug */,
+				B836547A1C7319CD00E5DDBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B836547B1C7319CD00E5DDBF /* Build configuration list for PBXNativeTarget "originalapp-debatewebsocketUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B836547C1C7319CD00E5DDBF /* Debug */,
+				B836547D1C7319CD00E5DDBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B83654451C7319CC00E5DDBF /* Project object */;
+}
