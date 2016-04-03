@@ -474,7 +474,7 @@ public final class SocketIOClient: NSObject, SocketEngineClient, SocketParsable 
 
             dispatch_async(dispatch_get_main_queue()) {
                 self.reconnectTimer = NSTimer.scheduledTimerWithTimeInterval(Double(self.reconnectWait),
-                    target: self, selector: "_tryReconnect", userInfo: nil, repeats: true)
+                    target: self, selector: #selector(SocketIOClient._tryReconnect), userInfo: nil, repeats: true)
             }
         }
     }

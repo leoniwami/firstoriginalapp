@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84D71DA977B8650485EE3B57 /* Pods_originalapp_debatewebsocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58E54FB7A3D1C4C517A1C454 /* Pods_originalapp_debatewebsocket.framework */; };
 		B83654511C7319CC00E5DDBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83654501C7319CC00E5DDBF /* AppDelegate.swift */; };
 		B83654531C7319CC00E5DDBF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83654521C7319CC00E5DDBF /* ViewController.swift */; };
-		B83654561C7319CC00E5DDBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B83654541C7319CC00E5DDBF /* Main.storyboard */; };
 		B83654581C7319CC00E5DDBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B83654571C7319CC00E5DDBF /* Assets.xcassets */; };
 		B836545B1C7319CC00E5DDBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B83654591C7319CC00E5DDBF /* LaunchScreen.storyboard */; };
 		B83654661C7319CD00E5DDBF /* originalapp_debatewebsocketTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83654651C7319CD00E5DDBF /* originalapp_debatewebsocketTests.swift */; };
@@ -43,8 +43,18 @@
 		B83654CF1C731B2B00E5DDBF /* SwiftRegex.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83654B91C731B2B00E5DDBF /* SwiftRegex.swift */; };
 		B83654D01C731B2B00E5DDBF /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83654BA1C731B2B00E5DDBF /* WebSocket.swift */; };
 		B83654D21C731C9F00E5DDBF /* shirakaba.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B83654D11C731C9F00E5DDBF /* shirakaba.jpg */; };
-		B83654D51C73289700E5DDBF /* tableTableViewCell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83654D31C73289700E5DDBF /* tableTableViewCell1.swift */; };
-		B83654D61C73289700E5DDBF /* tableTableViewCell1.xib in Resources */ = {isa = PBXBuildFile; fileRef = B83654D41C73289700E5DDBF /* tableTableViewCell1.xib */; };
+		B84B7DE21CB1260900B75D81 /* DatePickerAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84B7DE11CB1260900B75D81 /* DatePickerAlert.swift */; };
+		B862A9571C9754AA00DB42B9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B862A9561C9754AA00DB42B9 /* QuartzCore.framework */; };
+		B8C6325D1C86EF2D00FD9FB6 /* tableTableViewCell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C6325B1C86EF2D00FD9FB6 /* tableTableViewCell1.swift */; };
+		B8C6325E1C86EF2D00FD9FB6 /* tableTableViewCell1.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8C6325C1C86EF2D00FD9FB6 /* tableTableViewCell1.xib */; };
+		B8C632621C87072900FD9FB6 /* ViewControllerMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C632611C87072900FD9FB6 /* ViewControllerMenu.swift */; };
+		B8C632671C885B5200FD9FB6 /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = B8C632641C885B5200FD9FB6 /* twitter.png */; };
+		B8C632681C885B5200FD9FB6 /* yahoo.png in Resources */ = {isa = PBXBuildFile; fileRef = B8C632651C885B5200FD9FB6 /* yahoo.png */; };
+		B8C6326C1C885BF500FD9FB6 /* google.png in Resources */ = {isa = PBXBuildFile; fileRef = B8C6326B1C885BF500FD9FB6 /* google.png */; };
+		B8C6326E1C89994600FD9FB6 /* VoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C6326D1C89994600FD9FB6 /* VoteViewController.swift */; };
+		B8D7DB621C92DB67002C8153 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8D7DB611C92DB67002C8153 /* Main.storyboard */; };
+		B8D7DB641C92E28E002C8153 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D7DB631C92E28E002C8153 /* ProfileViewController.swift */; };
+		B8D7DB661C92E62A002C8153 /* FriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D7DB651C92E62A002C8153 /* FriendViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,10 +75,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1BEA9F0D88A8C34AF7BAF5DE /* Pods-originalapp-debatewebsocket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-originalapp-debatewebsocket.release.xcconfig"; path = "Pods/Target Support Files/Pods-originalapp-debatewebsocket/Pods-originalapp-debatewebsocket.release.xcconfig"; sourceTree = "<group>"; };
+		4C4625DCA978336FA24AE7E3 /* Pods-originalapp-debatewebsocket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-originalapp-debatewebsocket.debug.xcconfig"; path = "Pods/Target Support Files/Pods-originalapp-debatewebsocket/Pods-originalapp-debatewebsocket.debug.xcconfig"; sourceTree = "<group>"; };
+		58E54FB7A3D1C4C517A1C454 /* Pods_originalapp_debatewebsocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_originalapp_debatewebsocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B836544D1C7319CC00E5DDBF /* originalapp-debatewebsocket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "originalapp-debatewebsocket.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B83654501C7319CC00E5DDBF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B83654521C7319CC00E5DDBF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B83654551C7319CC00E5DDBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B83654571C7319CC00E5DDBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B836545A1C7319CC00E5DDBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B836545C1C7319CC00E5DDBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -112,8 +124,18 @@
 		B83654B91C731B2B00E5DDBF /* SwiftRegex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftRegex.swift; sourceTree = "<group>"; };
 		B83654BA1C731B2B00E5DDBF /* WebSocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebSocket.swift; sourceTree = "<group>"; };
 		B83654D11C731C9F00E5DDBF /* shirakaba.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shirakaba.jpg; sourceTree = "<group>"; };
-		B83654D31C73289700E5DDBF /* tableTableViewCell1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tableTableViewCell1.swift; sourceTree = "<group>"; };
-		B83654D41C73289700E5DDBF /* tableTableViewCell1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = tableTableViewCell1.xib; sourceTree = "<group>"; };
+		B84B7DE11CB1260900B75D81 /* DatePickerAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerAlert.swift; sourceTree = "<group>"; };
+		B862A9561C9754AA00DB42B9 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B8C6325B1C86EF2D00FD9FB6 /* tableTableViewCell1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tableTableViewCell1.swift; sourceTree = "<group>"; };
+		B8C6325C1C86EF2D00FD9FB6 /* tableTableViewCell1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = tableTableViewCell1.xib; sourceTree = "<group>"; };
+		B8C632611C87072900FD9FB6 /* ViewControllerMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerMenu.swift; sourceTree = "<group>"; };
+		B8C632641C885B5200FD9FB6 /* twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter.png; sourceTree = "<group>"; };
+		B8C632651C885B5200FD9FB6 /* yahoo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yahoo.png; sourceTree = "<group>"; };
+		B8C6326B1C885BF500FD9FB6 /* google.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = google.png; sourceTree = "<group>"; };
+		B8C6326D1C89994600FD9FB6 /* VoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VoteViewController.swift; path = ../VoteViewController.swift; sourceTree = "<group>"; };
+		B8D7DB611C92DB67002C8153 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		B8D7DB631C92E28E002C8153 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		B8D7DB651C92E62A002C8153 /* FriendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,10 +143,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B862A9571C9754AA00DB42B9 /* QuartzCore.framework in Frameworks */,
 				B83654851C731A1400E5DDBF /* libicucore.A.tbd in Frameworks */,
 				B83654831C731A0200E5DDBF /* CFNetwork.framework in Frameworks */,
 				B83654811C7319F800E5DDBF /* Security.framework in Frameworks */,
 				B836547F1C7319EB00E5DDBF /* Foundation.framework in Frameworks */,
+				84D71DA977B8650485EE3B57 /* Pods_originalapp_debatewebsocket.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,10 +169,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A78FF8C0FA3E84A3A3A792E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				58E54FB7A3D1C4C517A1C454 /* Pods_originalapp_debatewebsocket.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		529E08069D88EEE08F2270AF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4C4625DCA978336FA24AE7E3 /* Pods-originalapp-debatewebsocket.debug.xcconfig */,
+				1BEA9F0D88A8C34AF7BAF5DE /* Pods-originalapp-debatewebsocket.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B83654441C7319CC00E5DDBF = {
 			isa = PBXGroup;
 			children = (
 				B83654861C731A5500E5DDBF /* originalapp-debatewebsocket-Bridging-Header.h */,
+				B862A9561C9754AA00DB42B9 /* QuartzCore.framework */,
 				B83654841C731A1400E5DDBF /* libicucore.A.tbd */,
 				B83654821C731A0200E5DDBF /* CFNetwork.framework */,
 				B83654801C7319F800E5DDBF /* Security.framework */,
@@ -157,6 +199,8 @@
 				B83654641C7319CD00E5DDBF /* originalapp-debatewebsocketTests */,
 				B836546F1C7319CD00E5DDBF /* originalapp-debatewebsocketUITests */,
 				B836544E1C7319CC00E5DDBF /* Products */,
+				529E08069D88EEE08F2270AF /* Pods */,
+				2A78FF8C0FA3E84A3A3A792E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -177,13 +221,21 @@
 				B836549C1C731AD500E5DDBF /* Swift.io */,
 				B83654501C7319CC00E5DDBF /* AppDelegate.swift */,
 				B83654521C7319CC00E5DDBF /* ViewController.swift */,
-				B83654D31C73289700E5DDBF /* tableTableViewCell1.swift */,
-				B83654D41C73289700E5DDBF /* tableTableViewCell1.xib */,
-				B83654541C7319CC00E5DDBF /* Main.storyboard */,
+				B8C632611C87072900FD9FB6 /* ViewControllerMenu.swift */,
+				B8C6326D1C89994600FD9FB6 /* VoteViewController.swift */,
+				B8D7DB631C92E28E002C8153 /* ProfileViewController.swift */,
+				B8D7DB651C92E62A002C8153 /* FriendViewController.swift */,
+				B8C6325B1C86EF2D00FD9FB6 /* tableTableViewCell1.swift */,
+				B8C6325C1C86EF2D00FD9FB6 /* tableTableViewCell1.xib */,
+				B8D7DB611C92DB67002C8153 /* Main.storyboard */,
 				B83654571C7319CC00E5DDBF /* Assets.xcassets */,
 				B83654591C7319CC00E5DDBF /* LaunchScreen.storyboard */,
 				B836545C1C7319CC00E5DDBF /* Info.plist */,
 				B83654D11C731C9F00E5DDBF /* shirakaba.jpg */,
+				B8C6326B1C885BF500FD9FB6 /* google.png */,
+				B8C632651C885B5200FD9FB6 /* yahoo.png */,
+				B8C632641C885B5200FD9FB6 /* twitter.png */,
+				B84B7DE11CB1260900B75D81 /* DatePickerAlert.swift */,
 			);
 			path = "originalapp-debatewebsocket";
 			sourceTree = "<group>";
@@ -255,9 +307,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B83654751C7319CD00E5DDBF /* Build configuration list for PBXNativeTarget "originalapp-debatewebsocket" */;
 			buildPhases = (
+				E650902A6F7036C0F0362E58 /* Check Pods Manifest.lock */,
 				B83654491C7319CC00E5DDBF /* Sources */,
 				B836544A1C7319CC00E5DDBF /* Frameworks */,
 				B836544B1C7319CC00E5DDBF /* Resources */,
+				D6FF165ACB6733F333377F23 /* Embed Pods Frameworks */,
+				252DFF8CDF70003FFDA5ADBB /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -355,11 +410,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8C632671C885B5200FD9FB6 /* twitter.png in Resources */,
 				B836545B1C7319CC00E5DDBF /* LaunchScreen.storyboard in Resources */,
-				B83654D61C73289700E5DDBF /* tableTableViewCell1.xib in Resources */,
+				B8C6326C1C885BF500FD9FB6 /* google.png in Resources */,
+				B8D7DB621C92DB67002C8153 /* Main.storyboard in Resources */,
+				B8C6325E1C86EF2D00FD9FB6 /* tableTableViewCell1.xib in Resources */,
+				B8C632681C885B5200FD9FB6 /* yahoo.png in Resources */,
 				B83654581C7319CC00E5DDBF /* Assets.xcassets in Resources */,
 				B83654D21C731C9F00E5DDBF /* shirakaba.jpg in Resources */,
-				B83654561C7319CC00E5DDBF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,6 +437,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		252DFF8CDF70003FFDA5ADBB /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-originalapp-debatewebsocket/Pods-originalapp-debatewebsocket-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6FF165ACB6733F333377F23 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-originalapp-debatewebsocket/Pods-originalapp-debatewebsocket-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E650902A6F7036C0F0362E58 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B83654491C7319CC00E5DDBF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -388,16 +494,21 @@
 				B83654BC1C731B2B00E5DDBF /* SocketAckManager.swift in Sources */,
 				B83654C41C731B2B00E5DDBF /* SocketEngineWebsocket.swift in Sources */,
 				B83654C31C731B2B00E5DDBF /* SocketEngineSpec.swift in Sources */,
+				B84B7DE21CB1260900B75D81 /* DatePickerAlert.swift in Sources */,
 				B83654A41C731B0900E5DDBF /* SRWebSocket.m in Sources */,
 				B83654C91C731B2B00E5DDBF /* SocketIOClientStatus.swift in Sources */,
 				B83654CA1C731B2B00E5DDBF /* SocketLogger.swift in Sources */,
+				B8C632621C87072900FD9FB6 /* ViewControllerMenu.swift in Sources */,
+				B8C6326E1C89994600FD9FB6 /* VoteViewController.swift in Sources */,
 				B83654C61C731B2B00E5DDBF /* SocketFixUTF8.swift in Sources */,
 				B83654CD1C731B2B00E5DDBF /* SocketStringReader.swift in Sources */,
 				B83654D01C731B2B00E5DDBF /* WebSocket.swift in Sources */,
+				B8D7DB641C92E28E002C8153 /* ProfileViewController.swift in Sources */,
 				B83654CC1C731B2B00E5DDBF /* SocketParsable.swift in Sources */,
-				B83654D51C73289700E5DDBF /* tableTableViewCell1.swift in Sources */,
+				B8C6325D1C86EF2D00FD9FB6 /* tableTableViewCell1.swift in Sources */,
 				B83654CE1C731B2B00E5DDBF /* SocketTypes.swift in Sources */,
 				B83654C81C731B2B00E5DDBF /* SocketIOClientOption.swift in Sources */,
+				B8D7DB661C92E62A002C8153 /* FriendViewController.swift in Sources */,
 				B83654BB1C731B2B00E5DDBF /* SocketAckEmitter.swift in Sources */,
 				B83654CB1C731B2B00E5DDBF /* SocketPacket.swift in Sources */,
 				B83654C01C731B2B00E5DDBF /* SocketEngineClient.swift in Sources */,
@@ -446,14 +557,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B83654541C7319CC00E5DDBF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B83654551C7319CC00E5DDBF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B83654591C7319CC00E5DDBF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -548,6 +651,7 @@
 		};
 		B83654761C7319CD00E5DDBF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C4625DCA978336FA24AE7E3 /* Pods-originalapp-debatewebsocket.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -562,6 +666,7 @@
 		};
 		B83654771C7319CD00E5DDBF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BEA9F0D88A8C34AF7BAF5DE /* Pods-originalapp-debatewebsocket.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -640,6 +745,7 @@
 				B83654771C7319CD00E5DDBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B83654781C7319CD00E5DDBF /* Build configuration list for PBXNativeTarget "originalapp-debatewebsocketTests" */ = {
 			isa = XCConfigurationList;
@@ -648,6 +754,7 @@
 				B836547A1C7319CD00E5DDBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B836547B1C7319CD00E5DDBF /* Build configuration list for PBXNativeTarget "originalapp-debatewebsocketUITests" */ = {
 			isa = XCConfigurationList;
@@ -656,6 +763,7 @@
 				B836547D1C7319CD00E5DDBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

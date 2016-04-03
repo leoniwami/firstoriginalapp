@@ -24,4 +24,10 @@ class tableTableViewCell1: UITableViewCell {
         // Configure the view for the selected state
     }
     
+    func configureCell(texts:String, atIndexPath indexPath: NSIndexPath){
+        print(texts)
+        textmessage!.text = texts
+        
+    }
+    
 }

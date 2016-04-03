@@ -1,0 +1,10 @@
+PODS:
+  - UNAlertView (0.1.1)
+
+DEPENDENCIES:
+  - UNAlertView
+
+SPEC CHECKSUMS:
+  UNAlertView: fc58ca04357a5e8e7e1eb2803fc8152a89e9ce39
+
+COCOAPODS: 0.39.0

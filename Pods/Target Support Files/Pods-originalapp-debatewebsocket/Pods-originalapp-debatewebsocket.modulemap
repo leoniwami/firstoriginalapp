@@ -1,0 +1,6 @@
+framework module Pods_originalapp_debatewebsocket {
+  umbrella header "Pods-originalapp-debatewebsocket-umbrella.h"
+
+  export *
+  module * { export * }
+}
